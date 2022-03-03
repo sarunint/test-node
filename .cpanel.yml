@@ -1,6 +1,6 @@
 deployment:
   task:
     - export DEPLOY_PATH=/home/thivao/test-node.v2.th.ivao.aero
-    - cp -R * $DEPLOY_PATH
-    - cd $DEPLOY_PATH
+    - /bin/cp -R * $DEPLOY_PATH
+    - /bin/cd $DEPLOY_PATH
     - npm install
